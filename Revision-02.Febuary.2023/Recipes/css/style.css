@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+}
+body {
+    background-color: rgba(85, 165, 152, .75);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: rgba(151, 75, 73, 1);
+    text-align: center;
+}
+
+div.banner{
+    display: block;
+    background-image: url(../banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    display: block;
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px rgb(199, 65, 61) solid;
+}
+
+h2,
+h3 {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+div.list {
+    border: 2px red solid;
+}
+
+div.liststep,
+p.list {
+    border: 2px green solid;
+    width: 1200px;
+    margin: auto;
+
+}
+
+div.list ul {
+    border: 2px green solid;
+    width: 350px;
+    margin: auto;
+    list-style-position: inside;
+}
+
+div.list li,
+div.liststep li {
+    border: 2px yellow solid;
+    text-align: left;
+}
+
+div.container {
+    height: 60px;
+}
